@@ -1,4 +1,6 @@
 # Odin Form
+[Live Preview](https://devansh-baghel.github.io/form/)
+
 This is my solution of [TOP's Sign Up Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
 ## Credits
