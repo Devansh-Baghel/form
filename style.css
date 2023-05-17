@@ -72,8 +72,16 @@ input{
 	margin-bottom: 2em;
 	height: 25px;
 	width: 250px;
-	border: 1px solid rgba(0, 0, 0, 0.6);
+	border: 2px solid rgba(0, 0, 0, 0.6);
 	border-radius: 8px;
+}
+
+input:invalid {
+	border-color: red;
+}
+
+input:valid {
+	border-color: green;
 }
 
 #password,

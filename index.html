@@ -22,29 +22,28 @@
 		<h2>Journey is a mountain travel agency that specializes in providing unforgettable experiences for all levels of adventurers. We offer a wide range of tours and activities, from beginner-friendly hikes to challenging climbs.</h2>
 		<h2>Sign up today and start planning your next mountain adventure!</h2>
 
-		<!-- <h2>Let's do this!</h2> -->
-		<form action="">
-			<label for="first_name">FIRST NAME</label>
-			<label for="last_name">LAST NAME</label>
-			<input type="text" id="first_name" name="first_name">
+		<form action="https://httpbin.org/post" method="post">
+			<label for="first_name">FIRST NAME*</label>
+			<label for="last_name">LAST NAME*</label>
+			<input type="text" id="first_name" name="first_name" required>
 
-			<input type="text" id="last_name" name="last_name">
+			<input type="text" id="last_name" name="last_name" required>
 
-			<label for="email">EMAIL</label>
+			<label for="email">EMAIL*</label>
 			<label for="phone_number">PHONE NUMBER</label>
-			<input type="email" id="email" name="email">
+			<input type="email" id="email" name="email" required>
 
 			<input type="number" id="phone_number" name="phone_number">
 
-			<label for="password">PASSWORD</label>
-			<label for="confirm_password">CONFIRM PASSWORD</label>
-			<input type="password" id="password" name="password">
+			<label for="password">PASSWORD*</label>
+			<label for="confirm_password">CONFIRM PASSWORD*</label>
+			<input type="password" id="password" name="password" minlength="8" required>
 
-			<input type="password" id="confirm_password" name="confirm_password">
+			<input type="password" id="confirm_password" name="confirm_password" minlength="8" required>
 
+			<button type="submit">Submit</button>
 		</form>
 		
-		<button type="submit">Submit</button>
 		<h3>Already have an account? <a href="#">Login</a></h3>
 	</div>
 	
